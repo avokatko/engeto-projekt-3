@@ -1,0 +1,60 @@
+@media (max-width: 600px) {
+  header {
+    position: fixed;
+  }
+
+  header nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    border-top: 1px solid #00507e;
+    background-color: #2c5f95;
+    width: 100%;
+  }
+  .menu-icon {
+    display: block;
+    color: #fff;
+    font-size: 23px;
+    margin: 0 35px;
+  }
+  header nav li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .earth-icon img {
+    margin: 0 0 0 20px;
+  }
+  .sec-welcome {
+    padding: 15vh 5vh;
+    width: 100%;
+  }
+  .sec-background {
+    height: auto;
+  }
+  .sec3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sec-form {
+    margin: 0;
+    padding-top: 5vh;
+    width: 100%;
+    text-align: center;
+  }
+  .form-img {
+    display: inline-block;
+    align-items: center;
+  }
+  form {
+    margin: 0;
+    padding: 3vh 0;
+    height: auto;
+  }
+}
+
+@media (min-width: 601px) {
+  header nav {
+    display: block !important;
+  }
+}

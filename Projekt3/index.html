@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Katarina Novakova -->
+  <!-- kat.novak5@gmail.com -->
+  <!-- KataN -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="query.css" />
+    <script
+      src="https://kit.fontawesome.com/f7cecba86d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>HappyTravel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="earth-icon">
+        <img src="/Projekt3/images/earth.png" />
+      </div>
+
+      <div class="dark-light">
+        <div class="moon-icon">
+          <img src="/Projekt3/images/dark_mode.png" alt="" />
+        </div>
+
+        <div class="sun-icon">
+          <img src="/Projekt3/images/light_mode.png" alt="" />
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#signin">Sign Up</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </div>
+    </header>
+
+    <section class="sec1" id="home">
+      <div class="sec-background">
+        <div class="sec-welcome">
+          <h1>Welcome to HappyTravel</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis consequatur dolores, cumque modi inventore accusamus
+            sapiente rem consectetur voluptatum aperiam eaque nostrum explicabo
+            dolor. Quo cum molestiae minima id tenetur?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec2" id="about">
+      <div class="sec-heading">
+        <h1>Our previous adventures</h1>
+      </div>
+      <div class="sec-img">
+        <img class="image1" src="/Projekt3/images/adventure1.jpg" alt="" />
+        <img class="image2" src="/Projekt3/images/adventure2.jpg" alt="" />
+        <img class="image3" src="/Projekt3/images/adventure3.jpg" alt="" />
+      </div>
+
+      <div class="sec-btn">
+        <button type="button">Discover more</button>
+      </div>
+    </section>
+
+    <section class="sec3" id="signin">
+      <div class="sec-form">
+        <h3>Let's see the world together!</h3>
+        <p>Sign up to travel with us!</p>
+        <div class="form-img">
+          <img class="image4" src="/Projekt3/images/airplane.png" alt="" />
+        </div>
+      </div>
+      <div>
+        <form>
+          <p>Create your account</p>
+          <input type="text" placeholder="First name" class="firstName" />
+          <input type="text" placeholder="Last name" class="lastName" />
+          <input type="email" placeholder="Email Address" class="email" />
+          <input type="password" placeholder="Password" class="password1" />
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            class="password2"
+          />
+          <p class="result-text"></p>
+          <button type="submit" class="signupbtn">Sign Up</button>
+        </form>
+      </div>
+    </section>
+
+    <div onclick="topFunction()" class="arrow-up">
+      <span class="icon1">
+        <i class="fa-solid fa-circle-arrow-up" style="color: #2c5f95"></i>
+      </span>
+    </div>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="fa-brands fa-facebook" style="color: #2c5f95"></i>
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="fa-brands fa-instagram" style="color: #2c5f95"></i>
+        </a>
+
+        <a href="https://twitter.com/?lang=en" target="_blank">
+          <i class="fa-brands fa-x-twitter" style="color: #2c5f95"></i>
+        </a>
+      </div>
+      <div class="footer-box">
+        <p>© 2023 - Happy Travel. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
